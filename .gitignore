@@ -1,0 +1,30 @@
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Docker volumes et logs
+doris-fe-data/
+doris-be-data/
+doris-fe-log/
+doris-be-log/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.bak
